@@ -1,0 +1,93 @@
+.row
+{
+    max-width: 500px;
+    padding-right: 10% 10%;
+}
+
+body
+{
+    font-family: 'Fredericka the Great';
+}
+
+.hero{
+    position: absolute;
+    padding-left: 20px;
+    width: 360px;
+    top: 45%;
+    font-size: 15px;
+    transform: translate(-50%,-50%);
+}
+
+header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../img/M-Page-Background.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+h1
+{
+    color: white;
+}
+
+
+
+.main-nav
+{
+    list-style: none;
+    float: right;
+    margin-top: 15px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.main-nav a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+.main-nav li a:hover
+{
+    color: orange;
+    border-bottom: 2px solid orange;
+    transition: all 0.5s ease-in;
+    padding: 15px 0;
+}
+
+.btn
+{
+    border: 1px solid yellow;
+    padding: 10px 10px;
+    width: 100%;
+    text-decoration: none;
+    border-radius: 12px;
+    margin-right: 10px;
+    border-width: 3px;
+    background-color: #ADD8E6;
+}
+
+.button-awesome
+{
+    margin-top: 30px;
+}
+
+.btn-half
+{
+    background-color: white;
+    color: yellow;
+}
+
+.btn-full:hover
+{
+    background-color: orange;
+    color: black;
+    transition: all 0.5s ease-in;
+}
